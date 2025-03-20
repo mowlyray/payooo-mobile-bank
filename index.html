@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Daisyui-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-slate-800">
+    <section class="bg-gray-200 max-w-md min-h-screen mx-auto py-6">
+             <header>
+                <nav class="flex justify-center items-center mt-6">
+                    <div class="mt-10 relative flex justify-center items-center w-9/12 mb-10">
+                        <img class="absolute w-48" src="assets/bg.png" alt="">
+                        <img class="w-16" src="assets/Group.png" alt="">
+                    </div>
+                </nav>
+             </header>
+             <!-- login section -->
+
+             <div class="hero bg-base-200">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  
+                  <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                      <fieldset class="fieldset">
+                        <label class="fieldset-label">Account Number</label>
+                        <input type="number" class="input" placeholder="type your number"/>
+
+                        <label class="fieldset-label">Pin</label>
+                        <input type="text" class="input" placeholder="type your PIN" />
+                        <div><a class="link link-hover">Forgot password?</a></div>
+                        <button class="btn btn-neutral mt-4">Login</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
     
 </body>
 
